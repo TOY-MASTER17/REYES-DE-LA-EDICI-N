@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h3{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h3 a{
+    text-decoration: none;
+    color: #6a85b6;
+}
+
+h3 a:hover{
+    color: wheat;
+    transition: 0.8s;
+    margin-bottom: 2px;
+}
+
+.header {
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+    padding: 30px;
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    position: fixed;
+  
+}
+.title{
+   color:  aliceblue;
+   font-size: 28px;
+   margin-left: 5px;
+}
+.men{
+    background-color: white;
+    padding: 0;
+    border-radius: 12px;
+    margin-right: 6px;
+}
+.header--link{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.title:hover{
+    cursor: pointer;
+}
+.header--link:hover{
+    text-decoration: none;
+    transition: 0.5s;
+    color: aliceblue;
+    background-color: #6a85b6;
+    border-radius: 3.5px;
+
+}
+
+.content{
+    margin-top: 80px;
+    border: double #6a85b6 6px;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+.img{
+    margin: 10px  32px;
+}
+
+.img:hover{
+    cursor: pointer;
+}
+p{
+    max-width: 90%;
+    margin: 10px 25px;
+    text-align: justify;
+}
+
+.footeer{
+    margin-top: 20px;
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+    padding: 20px;
+
+
+}
+
+.footeer p{
+    max-width: 45%;
+    text-align: justify;
+    font-size: 13px;
+    color: aliceblue;
+}
+.buscanos{
+    display: block;
+    text-align: right;
+    color: beige;
+}
+
+.buscanos a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.buscanos a:hover{
+    font-weight: 500;
+}
+
